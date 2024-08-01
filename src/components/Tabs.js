@@ -10,11 +10,11 @@ const Tabs = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     const tabs = [
-        { title: "Profil", content: <AboutMe /> },
-        { title: "Expérience", content: <Experience /> },
-        { title: "Formation", content: <Formation /> },
-        { title: "Projets personnels", content: <PersonalProjects /> },
-        { title: "Projet d'études", content: <StudyProjects /> },
+        { title: "PROFIL", content: <AboutMe /> },
+        { title: "EXPÉRIENCE", content: <Experience /> },
+        { title: "FORMATION", content: <Formation /> },
+        { title: "PROJETS PERSONNELS", content: <PersonalProjects /> },
+        { title: "PROJETS D'ÉTUDES", content: <StudyProjects /> },
     ];
 
     return (

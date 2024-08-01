@@ -1,9 +1,10 @@
 import React from "react";
+import '../AboutMe.css';
 
 const AboutMe = () => {
     return (
         <div>
-            <h2>À PROPOS DE MOI</h2>
+            <h1>À PROPOS DE MOI</h1>
             <p> J'ai conçu et réalisé une grue avec commande manuelle, intégrant une communication sans fil pour le contrôle.
                 J'ai utilisé SolidWorks, Altium et programmé l'automatisation en langage C.
                 Cette expérience a renforcé mes compétences en communication et mon esprit d'équipe.
@@ -12,31 +13,32 @@ const AboutMe = () => {
             </p>
 
             <section class="skills">
-                <h2>CONNAISSANCES PARTICULIÈRES</h2>
+                <h1>CONNAISSANCES PARTICULIÈRES</h1>
                 <hr />
-                <h3>Langages de programmation :</h3>
+                <h2>Langages de programmation :</h2>
                 <ul>
                     <li>Java, Python (débutant), C (débutant), TypeScript / JavaScript.</li>
                 </ul>
-                <h3>Logiciels :</h3>
+                <h2>Logiciels :</h2>
                 <ul>
                     <li>Eclipse, Visual Studio, Visual Studio Code, DataGrip, IntelliJ IDEA, Oracle SQL
                         Developer,
-                        Suite MS Office, Cisco Packet Tracer & Wireshark, HTML & CSS, Node.js.</li>
+                        Suite MS Office, Cisco Packet Tracer & Wireshark, HTML & CSS, Node.js.
+                    </li>
                 </ul>
-                <h3>Environnements :</h3>
+                <h2>Environnements :</h2>
                 <ul>
                     <li>Windows & macOS.</li>
                 </ul>
-                <h3>Cadriciel :</h3>
+                <h2>Cadriciel :</h2>
                 <ul>
                     <li>Express.</li>
                 </ul>
-                <h3>SGBD :</h3>
+                <h2>SGBD :</h2>
                 <ul>
                     <li>MongoDB, Oracle, MySQL.</li>
                 </ul>
-                <h3>Outils :</h3>
+                <h2>Outils :</h2>
                 <ul>
                     <li>GitHub.</li>
                 </ul>
