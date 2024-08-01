@@ -1,0 +1,38 @@
+/* src/components/Tabs.css */
+.tab-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tab-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #0000ff; /* Blue background */
+    color: white; /* White text */
+    text-align: center;
+    flex: 1; /* Make tabs take equal space */
+  }
+  
+  .tab-item:not(:last-child) {
+    border-right: 1px solid white; /* Separate the tabs */
+  }
+  
+  .tab-item.active {
+    background: #ffffff; /* White background for active tab */
+    color: #000000; /* Black text for active tab */
+    font-weight: bold;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #fff;
+    color: black; /* Ensure content text is black */
+  }
+  
