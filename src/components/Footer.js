@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import '../Footer.css';
 
-const Footer = () => {
+const Footer = ({ firstName, lastName }) => {
     return (
         <footer>
-            <p> Paul Nguyen - CV</p>
+            <p> {firstName} {lastName} </p>
         </footer>
-    )
-}
+    );
+};
 
 export default Footer;
