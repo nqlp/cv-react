@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import '../Tabs.css';
-import Experience from './Experience';
-import Formation from './Formation';
-import PersonalProjects from './Personal-Projects';
-import StudyProjects from './Study-Projects';
-import AboutMe from './AboutMe';
+import './Tabs.css';
+import Experience from '../Experience';
+import Formation from '../Formation';
+import PersonalProjects from '../Personal-Projects';
+import StudyProjects from '../Study-Projects';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState(0);

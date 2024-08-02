@@ -1,6 +1,6 @@
 import React from "react";
-import Tabs from "./Tabs";
-import '../Header.css';
+import Tabs from "../Tabs/Tabs";
+import './Header.css';
 const Header = () => {
     return (
         <header>
